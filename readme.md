@@ -36,7 +36,7 @@
     - Prevent [Denial of Service (DoS)](https://owasp.org/www-community/attacks/Denial_of_Service) attacks & [ReDOS](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS) attacks
     - Protect against [OWASP Top Ten](https://owasp.org/www-project-top-ten/) vulnerabilities.
 - [ ]
-14. **Caching**: Implement caching to improve performance and reduce server load, including:
+**Caching**: Implement caching to improve performance and reduce server load, including:
     - Caching frequently requested long URLs to avoid generating a new short URL every time for the same URL.
     - Caching recently accessed short URLs to avoid looking up the corresponding long URL in the database every time.
     - Using a cache eviction policy to remove stale or infrequently used cache entries.
@@ -45,7 +45,7 @@
   
     Adding caching to the microservice can significantly improve its performance and reduce the load on the database, but it's important to design the caching strategy carefully to avoid cache-related issues, such as stale data, memory exhaustion and cache stampede.
 - [ ]
-15. **Integration Testing**: Writing automated tests to ensure that all components of the microservice are working together correctly, including:
+**Integration Testing**: Writing automated tests to ensure that all components of the microservice are working together correctly, including:
     - Testing the API endpoints and their responses
     - Testing the database connectivity and data integrity
     - Testing the caching functionality and its interaction with the database
