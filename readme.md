@@ -1,5 +1,5 @@
 ### General Features
-- [ ]
+- [x]
 **URL Shortening**: The core functionality of the microservice should be to generate short URLs from long ones. Both anonymous and authenticated users can create short URLs. Only authenticated users can update and delete their own short URLs.
 - [ ]
 **Redirect**: Short URLs should redirect to the corresponding long URLs when clicked.
