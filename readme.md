@@ -1,7 +1,7 @@
 ### Project Roadmap
-- [ ]
+- [x]
 **URL Shortening**: The core functionality of the microservice should be to generate short URLs from long ones. Both anonymous and authenticated users can create short URLs. Only authenticated users can update and delete their own short URLs.
-- [ ]
+- [x]
 **Redirect**: Short URLs should redirect to the corresponding long URLs when clicked.
 - [ ]
 **Authentication**: Authenticate users to restrict access to certain endpoints and features, such as Custom Alias, Expiration, Analytics and Blacklist.
