@@ -21,7 +21,7 @@
 **Logging**: Log all requests and responses for debugging and analysis purposes.
 - [ ]
 **OpenAPI Spec**: Generate an OpenAPI specification for the API to document the endpoints, parameters, and responses.
-- [ ]
+- [x]
 **JSON Validation**: Validate all input and output using JSON Schema to ensure consistency and prevent errors.
 - [ ]
 **Security**: Implement various security measures, including:
