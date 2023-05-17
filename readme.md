@@ -9,11 +9,11 @@
 **Authorization**: Restrict access to certain endpoints based on user roles or permissions. For example, the users with admin role can delete any short URL but a normal user cannot delete other users URLs.
 - [x]
 **Custom Alias**: Authenticated (logged-in) users should be able to choose a custom alias for their short URLs.
-- [ ]
+- [x]
 **URL Expiration**: Ability to set an expiration date for a short URL, after which it will no longer redirect. This feature is exclusive to authenticated users.
 - [ ]
 **Analytics**: Tracking clicks and other related data, such as HTTP Referrer, Query Parameters, Geo Country etc. for each short URL, exclusive to authenticated users.
-- [ ]
+- [x]
 **Rate Limiting**: Limiting the number of requests from a single IP address to prevent abuse. Implement both simple windowed per hour rate-limit as well as exponential back-off strategy. Increase the rate-limit for authenticated users.
 - [ ]
 **Blacklist**: Ability to blacklist certain URLs or IP addresses to prevent spam and abuse. Implement both global (set by admin) blacklist and user-set blacklist.
